@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "FizzBuzz: Coding Project by Elizabeth Ha";
+}
+
+<div class="">
+    <!-- MAIN SECTION  -->
+    <main class="flex-shrink-0">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-lg-2 mt-3">
+                <div class="col-lg-4 col border-end border-2">
+                    <h2>FizzBuzz: Coding Project</h2>
+                    <h4 class="lead">
+                        Enter comma separated values, then press the button to display the results.
+                    </h4>
+                </div>
+                <div class="col-lg-8 col">
+                    <div>
+                        <h5>Enter Values</h5>
+                        <p>Enter comma separated values.</p>
+                        <p>Example: 1,7,53,9</p>
+                        <form class="row gy-2 gx-3">
+                            <div class="col">
+                                <input id="arrValues" class="form-control" placeholder="" aria-label="Array Value">
+                            </div>
+                            <div class="col-12 d-flex justify-content-end mt-3 mb-1">
+                                <button id="btnSubmit" type="button" class="btn btn-large" style="background-color:cadetblue">Display The Values</button>
+                            </div>
+                        </form>
+                        <h2 class="border-bottom border-2">Results</h2>
+                        <div>
+                            <p id="results">
+                            <!-- Results go here  -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
